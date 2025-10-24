@@ -68,7 +68,7 @@ function HomeScreen({ navigation }: { navigation: any }) {
       <View style={quoteStyles.header}>
         <View style={quoteStyles.headerContent}>
         <View style={quoteStyles.headerRow}>
-        <Image source={require('./assets/IMG_20251018_130745 (1).jpg')} />
+        <Image source={require('./assets/IMG_20251018_130745 (1).jpg')} style={styles.logo}/>
           <Text style={quoteStyles.headerTitle}>Empowering the Nation</Text>
           </View>
           <Text style={quoteStyles.headerSubtitle}> Empower Minds and Shape Futures</Text>
@@ -1047,6 +1047,11 @@ fontSize:20,
     marginRight:90,
     marginBottom:25,
     color:'white',
+  },
+  logo:{
+width:25,
+height:25,
+borderRadius:100,
   },
  
 
